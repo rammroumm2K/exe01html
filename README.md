@@ -1,9 +1,10 @@
 # Création d'un dépôt GIT 
-## Créatio d'un dépôt GIT en local
+## Création d'un dépôt GIT en local
 Dans la console, initialitialisation du dépôt:
 ```bash
 git init
 ```
+Cecicrée un dossier caché nommé ´.git´ qui contient tout l'histoire du projet. 
 ## Visualisation de l'état de GIT
 ```bash
 git status
@@ -15,7 +16,7 @@ ls -a
 ```
 
 ## Pour ajouter un fichier à la future sauvegarde
-
+Le -a permet d'affichier les dossier/fichiers cachés.
 ```bash
 git add README.MD
 ```
@@ -36,6 +37,12 @@ sauvegardes et 'git show' (sans paramétre, affichage du dernier commit)
 ´´´bash
 git add .
 ´´´
+## Pour retirer un fichier du staging
+
+```bash
+git restore --staged README.md
+```
+Le fichier est sorti du `staging` et sera affiché en rouge avec `git status`
 
 ## Ajout d'un serveur distant
 
