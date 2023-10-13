@@ -61,3 +61,21 @@ Pour voir si ça a fonctionné
 ```bash
 git remote -v
 ```
+
+##Envoi du projet 
+```bash
+git push origin main
+```
+
+## Récupération du projet
+
+Si on souhaite récupérer toute la branche `main`
+
+```bash
+git pull origin main
+```
+
+Si on a effectué des modifations en local non voulues empéchant la récupération des fichiers(`merge error`).
+On peut utiliser un `git stash` pour faire une pseudo sauvegarde et revenir au dernier commit
+avant de réfaire un `git pull`
+
