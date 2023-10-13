@@ -62,7 +62,7 @@ Pour voir si ça a fonctionné
 git remote -v
 ```
 
-##Envoi du projet 
+## Envoi du projet 
 ```bash
 git push origin main
 ```
