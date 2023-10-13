@@ -34,9 +34,9 @@ sauvegardes et 'git show' (sans paramétre, affichage du dernier commit)
 
 ## Pour ajouter tous les fichiers en staging 
 
-´´´bash
+```bash
 git add .
-´´´
+```
 ## Pour retirer un fichier du staging
 
 ```bash
